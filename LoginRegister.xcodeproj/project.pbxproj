@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		52EF28392624C5CB00073E08 /* LoginRegisterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF28382624C5CB00073E08 /* LoginRegisterApp.swift */; };
-		52EF283B2624C5CB00073E08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF283A2624C5CB00073E08 /* ContentView.swift */; };
+		52EF283B2624C5CB00073E08 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF283A2624C5CB00073E08 /* Login.swift */; };
 		52EF283D2624C5CD00073E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EF283C2624C5CD00073E08 /* Assets.xcassets */; };
 		52EF28402624C5CD00073E08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EF283F2624C5CD00073E08 /* Preview Assets.xcassets */; };
 		52EF284B2624C5CD00073E08 /* LoginRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF284A2624C5CD00073E08 /* LoginRegisterTests.swift */; };
 		52EF28562624C5CD00073E08 /* LoginRegisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF28552624C5CD00073E08 /* LoginRegisterUITests.swift */; };
+		52EF286A2624C69800073E08 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF28692624C69800073E08 /* Signup.swift */; };
+		52EF28722624CCA000073E08 /* UnderlineTF+CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF28712624CCA000073E08 /* UnderlineTF+CustomButton.swift */; };
+		52EF28772629A7FA00073E08 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF28762629A7FA00073E08 /* MainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* Begin PBXFileReference section */
 		52EF28352624C5CB00073E08 /* LoginRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EF28382624C5CB00073E08 /* LoginRegisterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterApp.swift; sourceTree = "<group>"; };
-		52EF283A2624C5CB00073E08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52EF283A2624C5CB00073E08 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		52EF283C2624C5CD00073E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EF283F2624C5CD00073E08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52EF28412624C5CD00073E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		52EF28512624C5CD00073E08 /* LoginRegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginRegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EF28552624C5CD00073E08 /* LoginRegisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterUITests.swift; sourceTree = "<group>"; };
 		52EF28572624C5CD00073E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EF28692624C69800073E08 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		52EF28712624CCA000073E08 /* UnderlineTF+CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnderlineTF+CustomButton.swift"; sourceTree = "<group>"; };
+		52EF28762629A7FA00073E08 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				52EF28382624C5CB00073E08 /* LoginRegisterApp.swift */,
-				52EF283A2624C5CB00073E08 /* ContentView.swift */,
+				52EF28762629A7FA00073E08 /* MainController.swift */,
+				52EF283A2624C5CB00073E08 /* Login.swift */,
+				52EF28692624C69800073E08 /* Signup.swift */,
+				52EF28712624CCA000073E08 /* UnderlineTF+CustomButton.swift */,
 				52EF283C2624C5CD00073E08 /* Assets.xcassets */,
 				52EF28412624C5CD00073E08 /* Info.plist */,
 				52EF283E2624C5CD00073E08 /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EF283B2624C5CB00073E08 /* ContentView.swift in Sources */,
+				52EF28722624CCA000073E08 /* UnderlineTF+CustomButton.swift in Sources */,
+				52EF283B2624C5CB00073E08 /* Login.swift in Sources */,
 				52EF28392624C5CB00073E08 /* LoginRegisterApp.swift in Sources */,
+				52EF286A2624C69800073E08 /* Signup.swift in Sources */,
+				52EF28772629A7FA00073E08 /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
